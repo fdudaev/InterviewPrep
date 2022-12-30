@@ -7,7 +7,7 @@ public class BinarySearch {
      * @param numberToSearchFor Number that we are looking for
      * @return true if found, false is not found
      */
-    public static boolean binarySearch(int array[], int numberToSearchFor) {
+    public static boolean searchForDup(int array[], int numberToSearchFor) {
 
         // Array must be sorted first
         Arrays.sort(array);
@@ -23,7 +23,7 @@ public class BinarySearch {
         int [] array = {4, 2, 1, 5, 2, 3};
         int numberToSearchFor = 3;
 
-        System.out.println(binarySearch(array, numberToSearchFor));
+        System.out.println(searchForDup(array, numberToSearchFor));
     }
-    
+
 }
