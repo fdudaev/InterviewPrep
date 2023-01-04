@@ -6,7 +6,7 @@ public class ExecutionTimer {
 
             long startTime = System.nanoTime();
 
-            a[index] = 2;
+            a[index] = 3;
             counter++;
 
             long endTime = System.nanoTime();
