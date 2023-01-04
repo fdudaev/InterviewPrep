@@ -13,7 +13,7 @@ public class BinarySearch {
         Arrays.sort(array);
         int index = Arrays.binarySearch(array, numberToSearchFor);
 
-        if (index >= 0){
+        if (index >= 0){ // if condition is 0 return true;
             return true;
         }
         return false;
