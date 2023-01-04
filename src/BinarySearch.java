@@ -16,7 +16,7 @@ public class BinarySearch {
         if (index >= 0){ // if condition is 0 return true;
             return true;
         }
-        return false;
+        return false; // else return false;
     }
 
     public static void main(String[] args) {
